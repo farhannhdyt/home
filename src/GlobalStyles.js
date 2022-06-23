@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
   html, body {
     color: #fff;
     background-color: #000;
-    font-family: 'Consolas', sans-serif;
+    font-family: 'Inter', sans-serif;
   }
 
   section {
@@ -21,12 +21,9 @@ export const GlobalStyle = createGlobalStyle`
     height: 100vh;
   }
 
-  img {
+  .container {
+    width: 700px;
     max-width: 100%;
-  }
-
-  span {
-    font-size: 1.2rem;
-    margin-top: 20px;
+    margin: auto;
   }
 `;
