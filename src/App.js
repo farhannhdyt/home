@@ -1,3 +1,4 @@
+import { Header } from "./components";
 import { GlobalStyle } from "./GlobalStyles";
 
 const App = () => {
@@ -5,10 +6,10 @@ const App = () => {
     <>
       {/* Global style */}
       <GlobalStyle />
-      <section>
-        <img src="https://media.giphy.com/media/l46CyJmS9KUbokzsI/giphy.gif" />
-        <span>🚧 this site under construction 🚧</span>
-      </section>
+      <main className="container">
+        {/* header components */}
+        <Header />
+      </main>
     </>
   );
 };
