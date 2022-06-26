@@ -14,11 +14,7 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   section {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100vh;
+    margin: 50px 0;
   }
 
   .container {

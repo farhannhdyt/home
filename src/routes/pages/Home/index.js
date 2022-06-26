@@ -1,11 +1,13 @@
+import { StyledBanner } from "./Home.styled";
+
 const Home = () => {
   return (
     <section>
       {/* Banner components */}
-      <div>
+      <StyledBanner>
         <h1>Farhan Nur Hidayat</h1>
         <span>Front-end Developer</span>
-      </div>
+      </StyledBanner>
     </section>
   );
 };
